@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/navigation_home"-->
+        <!--android:icon="@drawable/home"-->
+        <!--android:title="Home"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--android:visible="false"/>-->
+
+    <item
+        android:id="@+id/navigation_addtofav"
+        android:icon="@drawable/icon_favorite"
+        android:title="Favourite"
+        app:showAsAction="always|withText"/>
+
+
+    <item
+        android:id="@+id/navigation_call"
+        android:icon="@drawable/call"
+        android:title="Call"
+        app:showAsAction="always|withText"/>
+
+
+
+
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat"
+        android:title="Chat"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/notifications"
+        android:title="Notifications"
+        app:showAsAction="always|withText"/>
+
+</menu>

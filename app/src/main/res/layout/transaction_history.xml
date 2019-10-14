@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextAllResponseFromDate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_edit_text"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/hint_edit_text_from_date"
+            android:inputType="date"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_text_font"
+            android:textColorHint="@color/edit_text_hint"
+            android:textSize="@dimen/font_size_edit_text" />
+
+        <EditText
+            android:id="@+id/editTextAllResponseToDate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_edit_text"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/hint_edit_text_to_date"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_text_font"
+            android:textColorHint="@color/edit_text_hint"
+            android:textSize="@dimen/font_size_edit_text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAllResponseSubmit"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/btn_border"
+        android:text="@string/label_button_recent_transaction"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_label"
+        android:textSize="@dimen/font_size_edit_text" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ListView
+                android:id="@+id/listViewAllResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:divider="@color/edit_text_hint"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/TextIdentificationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Minimum" />
+
+
+            <EditText
+                android:id="@+id/editTextIdentificationDocumentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Document ID" />
+
+            <ImageView
+                android:id="@+id/imgViewIdentificationDocumentFrontPage"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_upload_document" />
+
+
+            <Button
+                android:id="@+id/btnIdentificationDocumentChooseFrontPage"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_border"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp"
+                android:text="Choose File" />
+
+            <ImageView
+                android:id="@+id/imgViewIdentificationDocumentBackPage"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_upload_document"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/btnIdentificationDocumentChooseBackPage"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_border"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp"
+                android:text="Choose File"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Minimum file size is 3 MB JPG or PNG format only" />
+
+            <EditText
+                android:id="@+id/editTextIdentificationRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Remarks" />
+
+            <Button
+                android:id="@+id/btnIdentificationDocumentUpload"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp"
+                android:text="Upload Document" />
+            <TextView
+                android:id="@+id/textViewImageFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewImageFileback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+

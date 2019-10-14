@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change_pin"
+            android:icon="@drawable/changepin"
+            android:title="Change PIN" />
+        <item
+            android:id="@+id/nav_otp"
+            android:icon="@drawable/generate_otp"
+            android:title="Generate OTP" />
+        <item
+            android:id="@+id/nav_transaction_history"
+            android:icon="@drawable/icon_transaction_history"
+            android:title="Transaction History" />
+
+        <item
+            android:id="@+id/nav_KYC"
+            android:icon="@drawable/kyc"
+            android:title="KYC" />
+        <item
+            android:id="@+id/nav_OfflinePIN"
+            android:icon="@drawable/offlinepin"
+
+            android:title="Offline PIN" />
+        <item
+            android:id="@+id/nav_transactionPIN"
+            android:icon="@drawable/icon_transaction_pin"
+
+            android:title="Transaction PIN" />
+        <item
+            android:id="@+id/nav_DeviceLocation"
+            android:icon="@drawable/location"
+            android:title="Set Device Location" />
+        <!--<item-->
+            <!--android:id="@+id/nav_OfflineQR"-->
+            <!--android:icon="@drawable/offlineqr"-->
+        <!--app:actionLayout="@layout/layout_switch"-->
+            <!--android:title="Offline QR" />-->
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_TermAndCondition"
+                android:icon="@drawable/termsandcondition"
+                android:title="Terms And Condition" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

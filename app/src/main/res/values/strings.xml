@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">HAL Merchant</string>
+    <string name="text_device_authentication">Welcome to \HAL Merchant</string>
+    <string name="text_powered_by">Powered by Hal Pay\nDeveloped by HAL Technologies Ltd.</string>
+    <string name="nav_header_title">HAL Merchant</string>
+    <string name="nav_header_subtitle">HAL TECHNOLOGIES LTD</string>
+
+    <string-array name="array_bank_bin">
+        <item>Customer</item>
+        <item>Merchant</item>
+    </string-array>
+    <string name="forget_pin">Forget PIN?</string>
+    <string name="have_an_account">Don\'t have an account?</string>
+    <string name="register">Sign Up</string>
+    <string name="btn_label_login">Login</string>
+
+    <!-- Item Label -->
+    <!-- Item Label -->
+    <!-- Item Label -->
+    <string name="label_item_logout">Logout</string>
+
+    <!-- Header Label -->
+    <!-- Header Label -->
+    <!-- Header Label -->
+    <string name="label_header_change_pin">Change PIN</string>
+    <string name="label_header_tag_device">Tag Device</string>
+
+    <!-- Text Label -->
+    <!-- Text Label -->
+    <!-- Text Label -->
+    <string name="label_textview_select_account_type">Select Account Type</string>
+    <string name="label_textview_scan_me">scan to pay</string>
+    <string name="label_textview_to_pay_me">to pay</string>
+    <string name="label_textview_get_merchant_list">Get Merchant List</string>
+    <string name="label_textview_scan_merchant">Scan Merchant</string>
+    <string name="label_textview_scan_customer">Scan Customer</string>
+    <string name="label_textview_caption">Caption: </string>
+    <string name="label_textview_source_account">Source Account: </string>
+    <string name="label_textview_destination_account">Destination Account: </string>
+    <string name="label_textview_destination_account_holder">Destination Account Holder: </string>
+    <string name="label_textview_amount">Amount: </string>
+    <string name="label_textview_transaction_type">Transaction Type: </string>
+    <string name="label_textview_select_merchant_wallet">Select Merchant Wallet</string>
+    <string name="label_textview_select_customer_wallet">Select Customer Wallet</string>
+    <string name="label_textview_select_source_wallet">Select Source Wallet</string>
+    <string name="label_textview_district">Select District</string>
+    <string name="label_textview_select_thana">Select Thana</string>
+
+    <!-- Check Box Label -->
+    <!-- Check Box Label -->
+    <!-- Check Box Label -->
+    <string name="label_checkbox_auto_login">Auto Sign In</string>
+    <string name="label_checkbox_scan_customer_wallet">Scan Customer Wallet</string>
+    <string name="label_checkbox_scan_merchant_wallet">Scan Merchant Wallet</string>
+
+    <!-- Button Label -->
+    <!-- Button Label -->
+    <!-- Button Label -->
+    <string name="label_button_add_to_fav">Add To Favorite</string>
+    <string name="label_button_delete">Delete</string>
+    <string name="label_button_delete_all">Delete All</string>
+    <string name="label_button_generate_otp">Generate OTP</string>
+    <string name="label_button_get_pin">Get PIN</string>
+    <string name="label_button_go">Go</string>
+    <string name="label_button_make_payment">Make Payment</string>
+    <string name="label_button_make_paymentCCT">Submit Payment</string>
+    <string name="label_button_set_user_id">Set User ID</string>
+    <string name="label_button_set_pin">Set PIN</string>
+    <string name="label_button_recent_transaction">Preview Transaction</string>
+    <string name="label_button_address">Save Address</string>
+    <string name="label_button_bank_info">Save Bank Info</string>
+    <string name="label_button_contact">Save Contact Info</string>
+    <string name="label_button_introducer_info">Save Introducer Info</string>
+    <string name="label_button_nominee_info">Save Nominee Info</string>
+    <string name="label_button_parents_and_spouse_info">Save Parents/Spouse Info</string>
+    <string name="label_button_personal_info">Save Personal Info</string>
+    <string name="label_button_save_otp">Save OTP</string>
+    <string name="label_button_send_money">Send Money</string>
+    <string name="label_button_sign_up">Sign Up</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_submit_token">Submit Token</string>
+    <string name="label_button_update_kyc">Update KYC</string>
+
+    <!-- Hint Edit Text -->
+    <!-- Hint Edit Text -->
+    <!-- Hint Edit Text -->
+    <string name="hint_edit_text_from_date">From Date</string>
+    <string name="hint_edit_text_to_date">To Date</string>
+    <string name="hint_edit_text_set_token">Enter Token</string>
+    <string name="hint_edit_text_enter_full_name">Enter Full Name</string>
+    <string name="hint_edit_text_set_pin">Enter PIN</string>
+    <string name="hint_edit_text_enter_duration_in_min">Enter Duration in Min</string>
+    <string name="hint_edit_text_enter_number_of_transaction">Enter Number of Transaction</string>
+    <string name="hint_edit_text_enter_reference">Enter Reference</string>
+    <string name="hint_edit_text_enter_merchant_wallet">Enter Merchant Wallet</string>
+    <string name="hint_edit_text_enter_Agent_wallet">Enter Agent Wallet</string>
+    <string name="hint_edit_text_enter_customer_wallet">Enter Customer Wallet</string>
+    <string name="hint_edit_text_enter_customer_reference">Enter Customer Reference</string>
+    <string name="hint_edit_text_enter_merchant_pin">Enter Merchant PIN</string>
+    <string name="hint_edit_text_enter_pin">Enter PIN</string>
+    <string name="hint_edit_text_enter_destination_name">Enter Destination Name</string>
+    <string name="hint_edit_text_enter_destination_wallet">Enter Destination Wallet</string>
+    <string name="hint_edit_text_enter_source_wallet">Enter Source Wallet</string>
+    <string name="hint_edit_text_enter_caption">Enter Caption</string>
+    <string name="hint_edit_text_enter_current_pin">Enter Current PIN</string>
+    <string name="hint_edit_text_enter_new_pin">Enter New PIN</string>
+    <string name="hint_edit_text_enter_user_id">Enter User ID</string>
+    <string name="hint_edit_text_enter_mobile_number">Enter Mobile Number</string>
+    <string name="hint_edit_text_enter_email">Enter Email</string>
+    <string name="hint_edit_text_enter_otp">Enter OTP</string>
+    <string name="hint_edit_text_enter_source_otp">Enter Source OTP</string>
+    <string name="hint_edit_text_enter_customer_otp">Enter Customer OTP</string>
+    <string name="hint_edit_text_enter_amount">Enter Amount</string>
+    <string name="hint_edit_text_enter_destination_merchant_wallet">Enter Destination Merchant Wallet</string>
+    <string name="hint_edit_text_enter_destination_customer_wallet">Enter Destination Customer Wallet</string>
+    <string name="hint_edit_text_enter_present_address">Enter Present Address</string>
+    <string name="hint_edit_text_enter_permanent_address">Enter Permanent Address</string>
+    <string name="hint_edit_text_enter_office_address">Enter Office Address</string>
+
+    <string name="hint_edit_text_enter_bank_name">Enter Bank Name</string>
+    <string name="hint_edit_text_enter_bank_branch">Enter Bank Branch</string>
+    <string name="hint_edit_text_enter_bank_account_number">Enter Bank Account Number</string>
+    <string name="hint_edit_text_enter_remark">Enter Remark</string>
+
+    <string name="hint_edit_text_enter_nominee_name">Enter Nominee Name</string>
+    <string name="hint_edit_text_enter_nominee_mobile_number">Enter Nominee Mobile Number</string>
+    <string name="hint_edit_text_enter_relation">Enter Relation</string>
+    <string name="hint_edit_text_enter_percent">Enter Percent</string>
+
+    <string name="hint_edit_text_enter_introducer">Enter Introducer Name</string>
+    <string name="hint_edit_text_enter_introducer_mobile_number">Enter Introducer Mobile Number</string>
+    <string name="hint_edit_text_enter_introducer_address">Enter Introducer Address</string>
+    <string name="hint_edit_text_enter_introducer_occupation">Enter Introducer Occupation</string>
+
+    <!-- Content Description -->
+    <!-- Content Description -->
+    <!-- Content Description -->
+    <string name="content_description_imgview_grid_item">Grid Item</string>
+    <string name="content_description_imgview_login_info">Login Info</string>
+    <string name="content_description_imgbtn_scan_qr">Scan QR for Merchant</string>
+    <string name="content_description_imgbtn_get_merchant">Get All Merchant</string>
+    <string name="content_description_imgview_profile_pic">Profile Pic</string>
+    <string name="content_description_imgbtn_scan_qr_for_wallet">Scan QR for Wallet</string>
+    <string name="content_description_imgview_preview_qr_for_wallet">Preview QR for Wallet</string>
+    <string name="content_description_imgview_app_logo">HAL Merchant app logo</string>
+    <string name="content_description_imgbtn_reload_last_transaction">Scan QR for Wallet</string>
+    <string name="content_description_imgbtn_delete_favorite_transaction">Delete Favorite Transaction</string>
+    <string name="content_description_imgbtn_go_to_favorite_transaction">Goto Favorite Transaction</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_button_update_contact_info">Update Contact Info</string>
+
+    <string name="label_textview_select_identification_doc_type">Select Doc Type</string>
+    <string name="hint_edit_text_enter_identification_number">Enter Identification Number</string>
+    <string name="label_button_identification_info">Save Identification Info</string>
+
+    <string name="label_exiting_type">Exiting Type</string>
+
+
+    <!-- Terms & Condition -->
+    <string name="label_text_terms_and_condition_header_01">Terms of Service for using Hal Merchant</string>
+    <string name="label_text_terms_and_condition_header_02">You Agree To Accept This Terms Of Service Which Will Be Applicable To All Users From September, 2018.</string>
+    <string name="label_text_terms_and_condition_01_header">1. Services and Eligibility.</string>
+    <string name="label_text_terms_and_condition_01_label">If any account holder carries out transaction for any unlawful product or service, the account holder will be solely liable for the transaction and QuickPay will be held insured for any legal action taken against it.</string>
+    <string name="label_text_terms_and_condition_02_header">2. Financial Transaction.</string>
+    <string name="label_text_terms_and_condition_02_label">We may impose limits on the amount of money you can send, request or pay through the QuickPay as well as the amount of money you can add or withdraw from your QuickPay account. When you use QuickPay financial services, applicable fees will be charged from your account as and when applicable.</string>
+    <string name="label_text_terms_and_condition_03_header">3. Receiving Payment.</string>
+    <string name="label_text_terms_and_condition_03_label">You agree that you will not include any extra charges on your product or service for accepting QuickPay as a payment method. If you are selling goods or services, you may not ask the buyer to send you a Personal Payment as \'Send Money\' for the purchased item.</string>
+    <string name="label_text_terms_and_condition_04_header">4. Account Closure.</string>
+    <string name="label_text_terms_and_condition_04_label">You may close your Account at any time by following the instructions in your QuickPay Account. Any bonus balance or offer associated with your account will no longer be available for you.</string>
+    <string name="label_text_terms_and_condition_05_header">5. Unauthorized Transaction or Errors.</string>
+    <string name="label_text_terms_and_condition_05_label">If you give your login information to any other person and they carry out transactions from your account without your permission, these transactions will not be safeguarded by QuickPay.</string>
+    <string name="label_text_terms_and_condition_06_header">6. Eligibility for Safeguard.</string>
+    <string name="label_text_terms_and_condition_06_label">Notify HALPay immediately if you find any suspicious activity or transaction in your account.</string>
+    <string name="label_text_terms_and_condition_07_header">7. Your Errors.</string>
+    <string name="label_text_terms_and_condition_07_label">If you send incorrect amount of money to any person, or make a transaction with any other individual other than intended person, due to typing mistake, haste or any other reason, QuickPay will not protect you with the safeguard for unauthorized transaction or error. You will be solely responsible for your error and will have to settle with that person without requesting any involvement of QuickPay.</string>
+    <string name="label_text_terms_and_condition_08_header">8. Availability and nature of service.</string>
+    <string name="label_text_terms_and_condition_08_label">QuickPay is not liable for the services and products whose transactions are made using QuickPay Services. We cannot guarantee that the buyer or seller you are dealing with is authorized or will complete the transaction.</string>
+    <string name="label_text_terms_and_condition_09_header">9. Securing your Password.</string>
+    <string name="label_text_terms_and_condition_09_label">You should maintain the security of your QuickPay account by controlling and making sure that all IDs, passwords, PINs or other codes that you use for accessing QuickPay services are secured and not revealed to any other person.</string>
+    <string name="label_text_terms_and_condition_10_header">10. Holds or Reserves.</string>
+    <string name="label_text_terms_and_condition_10_label">QuickPay may place hold or reserve on your account balance for security of our users’ account and QuickPay System. We will provide notice for our action and you will have opportunity for requesting restoration of your access if we deem it appropriate.</string>
+
+    <string name="txt_about_us_quick_pay">HAL Merchant</string>
+    <string name="txt_about_us_release">Release 1.0</string>
+    <string name="txt_about_us_developed_and_maintain_by">Developed and Maintain \nby\nHAL Technologies Limited</string>
+    <string name="txt_about_us_contact">Contact</string>
+    <string name="txt_about_us_dial">+88-09678800076</string>
+    <string name="txt_about_us_email">E‐mail: info@haltechbd.com</string>
+    <string name="txt_about_us_web">Web: http://haltechbd.com/</string>
+    <string name="title_activity_merchant__location_v2">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

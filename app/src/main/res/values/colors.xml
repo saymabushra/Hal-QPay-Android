@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A0DC</color>
+    <color name="colorPrimaryDark">#0487b8</color>
+    <color name="colorAccent">#00A0DC</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#0000FF</color>
+
+    <!-- BACKGROUND -->
+    <color name="bg">#0080E2</color>
+    <color name="bg_splash">#F79406</color>
+    <color name="bg_header">#0080E2</color>
+
+    <!-- TEXT VIEW -->
+    <color name="text_view_font_header">#FFFFFF</color>
+    <color name="text_view_font">#C80000</color>
+    <color name="text_view_font_error">#FF0000</color>
+
+    <!-- EDIT TEXT -->
+    <color name="edit_text_font">#000000</color>
+    <color name="edit_text_hint">#808080</color>
+    <!-- BUTTON -->
+    <color name="btn_label">#FFFFFF</color>
+    <color name="btn_bg">#C80000</color>
+    <!-- CHECK BOX -->
+    <color name="check_box_font">#B10012</color>
+    <!-- SPINNER -->
+    <color name="spinner_font">#B10012</color>
+</resources>

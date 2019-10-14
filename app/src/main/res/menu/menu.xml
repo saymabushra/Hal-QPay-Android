@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionRewardpoint"
+        app:tabTextAppearance="@style/TabTextAppearance"
+        android:title="Reward Point"
+        app:showAsAction="always|withText"
+        >
+
+    </item>
+
+    <!--<item-->
+        <!--android:id="@+id/actionback"-->
+        <!--andriconhomeicon="@drawable/img_btn_bg_reload"-->
+        <!--android:title="back"-->
+        <!--app:showAsAction="always" />-->
+
+</menu>

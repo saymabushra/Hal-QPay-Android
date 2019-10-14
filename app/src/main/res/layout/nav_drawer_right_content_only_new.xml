@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haltechbd.app.android.qpay.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:weightSum="10">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:fillViewport="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/AppTheme.AppBarOverlay">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                </android.support.design.widget.AppBarLayout>
+
+                <!-- Account Info/Quick Pay/QR Code -->
+                <!-- Account Info/Quick Pay/QR Code -->
+                <!-- Account Info/Quick Pay/QR Code -->
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardViewBasicInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:padding="5dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2.5">
+
+                        <!-- Profile -->
+                        <!-- Profile -->
+                        <!-- Profile -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/cardViewImage"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                app:cardCornerRadius="30dp">
+
+                                <ImageView
+                                    android:id="@+id/imgViewProfilePic"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_profile" />
+                            </android.support.v7.widget.CardView>
+
+                            <!--<android.support.v7.widget.CardView-->
+                            <!--android:id="@+id/cardViewImage"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:layout_alignParentLeft="true"-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--android:shape="ring"-->
+                            <!--app:cardCornerRadius="40dp">-->
+
+                            <!--<ImageView-->
+                            <!--android:id="@+id/imgViewProfilePic"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:contentDescription="@string/content_description_imgview_profile_pic"-->
+                            <!--android:src="@drawable/icon_profile" />-->
+                            <!--</android.support.v7.widget.CardView>-->
+
+
+                        </LinearLayout>
+                        <!-- Account Name & Account Number-->
+                        <!-- Account Name & Account Number-->
+                        <!-- Account Name & Account Number-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtViewAccountHolderName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Name"
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/txtViewAccountNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Number"
+                                android:textColor="#000000"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/txtViewAccountTypeAndStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rank and Status"
+                                android:textColor="#000000"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                        <!-- Quick Pay -->
+                        <!-- Quick Pay -->
+                        <!-- Quick Pay -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnQuickPay"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentEnd="true"
+                                android:background="@drawable/icon_quick_pay_01"
+                                android:contentDescription="@string/content_description_imgbtn_scan_qr_for_wallet" />
+                        </LinearLayout>
+                        <!-- QR Scan -->
+                        <!-- QR Scan -->
+                        <!-- QR Scan -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnQr"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentEnd="true"
+                                android:background="@drawable/qr_code"
+                                android:contentDescription="@string/content_description_imgbtn_scan_qr_for_wallet" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <!-- Balance -->
+                <!-- Balance -->
+                <!-- Balance -->
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardViewBalance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:padding="5dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="top|center_horizontal"
+                            android:orientation="vertical"
+                            android:weightSum="3">
+                            <!-- Voucher Pay-->
+                            <!-- Voucher Pay-->
+                            <!-- Voucher Pay-->
+                            <Button
+                                android:id="@+id/btnQPayMenuDefultAccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:drawableLeft="@drawable/icon_primary_wallet"
+                                android:gravity="left|center_vertical"
+                                android:paddingLeft="7dp"
+                                android:text="   Quick Wallet"
+                                android:textAllCaps="false"
+                                android:textSize="12sp" />
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#f1f1f1" />
+                            <!-- Canteen Pay-->
+                            <!-- Canteen Pay-->
+                            <!-- Canteen Pay-->
+                            <Button
+                                android:id="@+id/btnQPayMenuLinkAccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:drawableLeft="@drawable/linkacc"
+                                android:gravity="left|center_vertical"
+                                android:paddingLeft="7dp"
+                                android:text="   Link Account"
+                                android:textAllCaps="false"
+                                android:textSize="12sp" />
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#f1f1f1" />
+                            <!-- SIM Bill-->
+                            <!-- SIM Bill-->
+                            <!-- SIM Bill-->
+                            <Button
+                                android:id="@+id/btnQPayDiscountCard"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:drawableLeft="@drawable/discount_card"
+                                android:gravity="left|center_vertical"
+                                android:paddingLeft="7dp"
+                                android:text="   Discount Card"
+                                android:textAllCaps="false"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Quick Wallet Balance"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/cardViewPrimaryBalance2"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:shape="ring"
+                                app:cardCornerRadius="60dp"
+                                card_view:cardBackgroundColor="#00A0DC">
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayoutRefreshBalance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="BDT"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:id="@+id/txtViewBalance"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="12345"
+                                        android:textColor="#ffffff"
+                                        android:textSize="20sp" />
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+
+                            <TextView
+                                android:id="@+id/txtViewLabelBalance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#C80000"
+                                android:textSize="16sp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <!-- Last Transaction -->
+                <!-- Last Transaction -->
+                <!-- Last Transaction -->
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardViewNotification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:visibility="visible"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLastTransaction"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8.5"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Last Transaction"
+                                android:textColor="#000000"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewQPayMenuLastTransaction"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnReload"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:background="#00ffffff"
+                                android:contentDescription="@string/content_description_imgbtn_reload_last_transaction"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/reload" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- Grid View -->
+                <!-- Grid View -->
+                <!-- Grid View -->
+                <GridView
+                    android:id="@+id/gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="5dp"
+                    android:numColumns="3"
+                    android:verticalSpacing="5dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:itemBackground="@color/colorPrimary"
+            app:elevation="0dp"
+            app:itemIconTint="#FFFFFF"
+            app:itemTextColor="#FFFFFF"
+            app:menu="@menu/navigation" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

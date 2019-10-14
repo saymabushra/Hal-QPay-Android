@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imgViewComingSoonLogo"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo_hal_merchant"
+        android:contentDescription="@string/content_description_imgview_app_logo" />
+
+    <TextView
+        android:id="@+id/textViewComingSoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgViewComingSoonLogo"
+        android:layout_centerHorizontal="true"
+        android:text="This Service Will Be Available Soon"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/text_powered_by"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

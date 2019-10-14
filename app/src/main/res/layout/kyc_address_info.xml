@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Select District -->
+            <!-- Select District -->
+            <!-- Select District -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/label_textview_district"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- District -->
+            <!-- District -->
+            <!-- District -->
+            <Spinner
+                android:id="@+id/spinnerDistrict"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <!-- Select Thana -->
+            <!-- Select Thana -->
+            <!-- Select Thana -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/label_textview_select_thana"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Thana -->
+            <!-- Thana -->
+            <!-- Thana -->
+            <Spinner
+                android:id="@+id/spinnerThana"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <!-- Present Address -->
+            <!-- Present Address -->
+            <!-- Present Address -->
+            <EditText
+                android:id="@+id/editTextKycAddressInfoPresentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="top"
+                android:hint="@string/hint_edit_text_enter_present_address"
+                android:inputType="text|textMultiLine" />
+            <!-- Permanent Address -->
+            <!-- Permanent Address -->
+            <!-- Permanent Address -->
+            <EditText
+                android:id="@+id/editTextKycAddressInfoPermanentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="top"
+                android:hint="@string/hint_edit_text_enter_permanent_address"
+                android:inputType="text|textMultiLine" />
+            <!-- Office Address -->
+            <!-- Office Address -->
+            <!-- Office Address -->
+            <EditText
+                android:id="@+id/editTextKycAddressInfoOfficeAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="top"
+                android:hint="@string/hint_edit_text_enter_office_address"
+                android:inputType="text|textMultiLine" />
+            <!-- Save Address -->
+            <!-- Save Address -->
+            <!-- Save Address -->
+            <Button
+                android:id="@+id/btnKycAddressInfoSaveAddress"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_address"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/txtViewKycAddressInfoShowServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

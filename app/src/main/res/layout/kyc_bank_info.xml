@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Bank Name -->
+            <!-- Bank Name -->
+            <!-- Bank Name -->
+            <EditText
+                android:id="@+id/editTextKycBankInfoBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_bank_name"
+                android:inputType="text" />
+            <!-- Bank Branch -->
+            <!-- Bank Branch -->
+            <!-- Bank Branch -->
+            <EditText
+                android:id="@+id/editTextKycBankInfoBankBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_bank_branch"
+                android:inputType="text" />
+            <!-- Bank Account -->
+            <!-- Bank Account -->
+            <!-- Bank Account -->
+            <EditText
+                android:id="@+id/editTextKycBankInfoBankAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_bank_account_number"
+                android:inputType="number" />
+            <!-- Remarks -->
+            <!-- Remarks -->
+            <!-- Remarks -->
+            <EditText
+                android:id="@+id/editTextKycBankInfoRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="top|center"
+                android:hint="@string/hint_edit_text_enter_remark"
+                android:inputType="text|textMultiLine" />
+            <!-- Save Bank Info -->
+            <!-- Save Bank Info -->
+            <!-- Save Bank Info -->
+            <Button
+                android:id="@+id/btnKycBankInfoSaveBankInfo"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_bank_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/txtViewKycBankInfoShowServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

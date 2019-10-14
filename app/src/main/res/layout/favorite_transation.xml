@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <!-- Favorite List -->
+    <!-- Favorite List -->
+    <!-- Favorite List -->
+    <ListView
+        android:id="@+id/listViewfav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF"
+        android:divider="#f1f1f1"
+        android:dividerHeight="1dp"
+        android:layout_margin="10dp"
+        android:focusable="true" />
+    <!-- Delete All -->
+    <!-- Delete All -->
+    <!-- Delete All -->
+    <Button
+        android:id="@+id/btnDeleteAllFavList"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_border"
+        android:text="@string/label_button_delete_all"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_label"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+

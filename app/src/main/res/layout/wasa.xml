@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/label_textview_select_customer_wallet"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Customer Wallet Type -->
+            <Spinner
+                android:id="@+id/spinnerWASAWallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <!-- Select Type -->
+            <!-- Select Type -->
+            <!-- Select Type -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Select Type"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Select Type Spinner -->
+            <!-- Select Type Spinner -->
+            <!-- Select Type Spinner -->
+            <Spinner
+                android:id="@+id/spwasa"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <!-- Wasa Bill Number -->
+            <!-- Wasa Bill Number -->
+            <!-- Wasa Bill Number -->
+            <EditText
+                android:id="@+id/txtwasabillno"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Enter WASA Bill No."
+                android:inputType="number"
+                android:maxLength="12"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Re-Type Wasa Bill Number -->
+            <!-- Re-Type Wasa Bill Number -->
+            <!-- Re-Type Wasa Bill Number -->
+            <EditText
+                android:id="@+id/txtwasabillnoReType"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Re-Type WASA Bill No"
+                android:inputType="number"
+                android:maxLength="12"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- OTP -->
+            <!-- OTP -->
+            <!-- OTP -->
+            <EditText
+                android:id="@+id/txtwasaOTP"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:maxLength="5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Payer Mobile Number -->
+            <!-- Payer Mobile Number -->
+            <!-- Payer Mobile Number -->
+            <EditText
+                android:id="@+id/txtwasaPayerMobile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Enter Payer Mobile No."
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Submit -->
+            <!-- Submit -->
+            <!-- Submit -->
+            <Button
+                android:id="@+id/btnBillPaymentWasaSubmit"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/txtViewBillPaymentWasaShowServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/topup_logo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/label_textview_select_customer_wallet"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Customer Wallet Type -->
+            <Spinner
+                android:id="@+id/spinnerTopupWallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+
+                    android:id="@+id/editTextTopUpMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_edit_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:gravity="center"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="@color/edit_text_font"
+                    android:textColorHint="@color/edit_text_hint"
+                    android:textSize="@dimen/font_size_edit_text"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgViewContachlistMP"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignRight="@+id/editTextTopUpMobileNumber"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/baseline_account_box_black_48" />
+
+            </RelativeLayout>
+
+
+            <!-- Amount -->
+            <!-- Amount -->
+            <!-- Amount -->
+            <EditText
+                android:id="@+id/editTextTopUpAmount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Enter Amount"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Mobile Number -->
+            <!-- Mobile Number -->
+            <!-- Mobile Number -->
+
+            <!-- OTP -->
+            <!-- OTP -->
+            <!-- OTP -->
+            <EditText
+                android:id="@+id/editTextTopUpOtp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:maxLength="5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+
+
+
+            <!-- Subscriber Type -->
+            <!-- Subscriber Type -->
+            <!-- Subscriber Type -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subscriber Type"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Subscriber Type Spinner -->
+            <!-- Subscriber Type Spinner -->
+            <!-- Subscriber Type Spinner -->
+            <Spinner
+                android:id="@+id/spinnerTopUpSubscriberType"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <!-- Submit -->
+            <!-- Submit -->
+            <!-- Submit -->
+            <Button
+                android:id="@+id/btnTopUpSubmit"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/txtViewOtpShowServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- Email -->
+    <!-- Email -->
+    <!-- Email -->
+    <EditText
+        android:id="@+id/editTextKycContactInfoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/edit_text_font"
+        android:textColorHint="@color/edit_text_hint"
+        android:textSize="@dimen/font_size_edit_text" />
+    <!-- Mobile Number -->
+    <!-- Mobile Number -->
+    <!-- Mobile Number -->
+    <EditText
+        android:id="@+id/editTextKycContactInfoMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/edit_text_font"
+        android:textColorHint="@color/edit_text_hint"
+        android:textSize="@dimen/font_size_edit_text" />
+    <!-- Update Contact Info -->
+    <!-- Update Contact Info -->
+    <!-- Update Contact Info -->
+    <Button
+        android:id="@+id/btnKycContactInfoUpdateContactInfo"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/btn_border"
+        android:text="@string/label_button_update_contact_info"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_label"
+        android:textSize="16sp" />
+    <!-- Server Response -->
+    <TextView
+        android:id="@+id/txtViewKycContactInfoShowServerResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text=""
+        android:textColor="@color/text_view_font_error"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

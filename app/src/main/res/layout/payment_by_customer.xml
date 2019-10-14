@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/payment_by_customer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Select Customer Wallet -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/label_textview_select_customer_wallet"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Customer Wallet Type -->
+            <Spinner
+                android:id="@+id/spinnerMakePaymentWallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <!-- Customer PIN -->
+            <EditText
+                android:id="@+id/editTextMerchantPaymentCustomerPin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_pin"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageButton
+                    android:id="@+id/imgBtnScanQr"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00ffffff"
+                    android:contentDescription="@string/content_description_imgbtn_scan_qr"
+                    android:src="@drawable/img_btn_bg_qr_scan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/label_textview_scan_merchant"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnList"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:background="#00ffffff"
+                    android:contentDescription="@string/content_description_imgbtn_get_merchant"
+                    android:src="@drawable/img_btn_bg_list" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_textview_get_merchant_list"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!--<EditText-->
+                <!--android:id="@+id/editTextMerchantSearchName"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/height_edit_text"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_marginTop="@dimen/margin_top"-->
+                <!--android:gravity="center"-->
+                <!--android:hint="enter merchant"-->
+                <!--android:inputType="text"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:paddingRight="5dp"-->
+                <!--android:textColor="@color/edit_text_font"-->
+                <!--android:textColorHint="@color/edit_text_hint"-->
+                <!--android:textSize="@dimen/font_size_edit_text"-->
+                <!--android:visibility="gone"/>-->
+
+            <!-- Merchant Wallet -->
+
+            <EditText
+                android:id="@+id/editTextMerchantPaymentMerchantAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_merchant_wallet"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+
+            <!-- Customer OTP -->
+            <EditText
+                android:id="@+id/editTextMerchantPaymentCustomerOtp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_otp"
+                android:inputType="number"
+                android:maxLength="5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+
+            <!-- Amount -->
+            <EditText
+                android:id="@+id/editTextMerchantPaymentAmount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_amount"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+
+            <!-- Reference -->
+            <EditText
+                android:id="@+id/editTextMerchantPaymentReference"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_reference"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Submit -->
+            <Button
+                android:id="@+id/btnMerchantPaymentSubmit"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_make_payment"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/textViewMerchantPaymentServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

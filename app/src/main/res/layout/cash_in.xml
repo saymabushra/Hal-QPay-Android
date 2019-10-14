@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Select Account Type -->
+            <!-- Select Account Type -->
+            <!-- Select Account Type -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/label_textview_select_merchant_wallet"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <!-- Wallet Type -->
+            <!-- Wallet Type -->
+            <!-- Wallet Type -->
+            <Spinner
+                android:id="@+id/spinnerCashInWalletMerchant"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/spinner_border"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <!-- QR Scan for Destination Wallet -->
+            <!-- QR Scan for Destination Wallet -->
+            <!-- QR Scan for Destination Wallet -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <!-- Scan QR -->
+                <!-- Scan QR -->
+                <!-- Scan QR -->
+                <ImageButton
+                    android:id="@+id/imgBtnCashInScanQrCustomerWallet"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00ffffff"
+                    android:contentDescription="Scan Customer"
+                    android:src="@drawable/img_btn_bg_qr_scan" />
+                <!-- Merchant Wallet -->
+                <!-- Merchant Wallet -->
+                <!-- Merchant Wallet -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/label_textview_scan_customer"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <!-- Destination Wallet -->
+            <!-- Destination Wallet -->
+            <!-- Destination Wallet -->
+            <EditText
+                android:id="@+id/editTextCashInDestinationAccountWallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_customer_wallet"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- OTP -->
+            <!-- OTP -->
+            <!-- OTP -->
+            <EditText
+                android:id="@+id/editTextCashInOtp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_otp"
+                android:inputType="number"
+                android:maxLength="5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+            <!-- Amount -->
+            <!-- Amount -->
+            <!-- Amount -->
+            <EditText
+                android:id="@+id/editTextCashInAmount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:hint="@string/hint_edit_text_enter_amount"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/edit_text_font"
+                android:textColorHint="@color/edit_text_hint"
+                android:textSize="@dimen/font_size_edit_text" />
+
+            <!-- Submit -->
+            <!-- Submit -->
+            <!-- Submit -->
+            <Button
+                android:id="@+id/btnCashInSubmit"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <!-- Server Response -->
+            <TextView
+                android:id="@+id/textViewCashInServerResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text=""
+                android:textColor="@color/text_view_font_error"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

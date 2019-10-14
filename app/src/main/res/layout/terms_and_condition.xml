@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <!-- Header -->
+            <!-- Header -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_text_terms_and_condition_header_01"
+                android:textColor="#727474"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_header_02"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+            <!-- 1. Services and Eligibility. -->
+            <!-- 1. Services and Eligibility. -->
+            <!-- 1. Services and Eligibility. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_01_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_01_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 2. Financial Transaction. -->
+            <!-- 2. Financial Transaction. -->
+            <!-- 2. Financial Transaction. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_02_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_02_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 3. Receiving Payment. -->
+            <!-- 3. Receiving Payment. -->
+            <!-- 3. Receiving Payment. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_03_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_03_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 4. Account Closure. -->
+            <!-- 4. Account Closure. -->
+            <!-- 4. Account Closure. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_04_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_04_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 5. Unauthorized Transaction or Errors. -->
+            <!-- 5. Unauthorized Transaction or Errors. -->
+            <!-- 5. Unauthorized Transaction or Errors. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_05_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_05_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 6. Eligibility for Safeguard. -->
+            <!-- 6. Eligibility for Safeguard. -->
+            <!-- 6. Eligibility for Safeguard. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_06_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_06_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 7. Your Errors. -->
+            <!-- 7. Your Errors. -->
+            <!-- 7. Your Errors. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_07_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_07_label"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 8. Availability and nature of service. -->
+            <!-- 8. Availability and nature of service. -->
+            <!-- 8. Availability and nature of service. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_08_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_08_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 9. Securing your Password. -->
+            <!-- 9. Securing your Password. -->
+            <!-- 9. Securing your Password. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_09_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_09_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+            <!-- 10. Holds or Reserves -->
+            <!-- 10. Holds or Reserves -->
+            <!-- 10. Holds or Reserves -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_10_header"
+                android:textColor="#727474"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_text_terms_and_condition_10_label"
+                android:textColor="#727474"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

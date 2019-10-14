@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- scan to pay -->
+    <!-- scan to pay -->
+    <!-- scan to pay -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_textview_scan_me"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <!-- Account Holder Full Name -->
+    <!-- Account Holder Full Name -->
+    <!-- Account Holder Full Name -->
+    <TextView
+        android:id="@+id/textViewAccountHolderFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- Wallet -->
+    <!-- Wallet -->
+    <!-- Wallet -->
+    <TextView
+        android:id="@+id/textViewAccountNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- QR Code -->
+    <!-- QR Code -->
+    <!-- QR Code -->
+    <ImageView
+        android:id="@+id/imageViewPreviewQrCode"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/content_description_imgview_preview_qr_for_wallet"
+        android:src="@drawable/qr_code" />
+    <!-- Wallet -->
+    <!-- Wallet -->
+    <!-- Wallet -->
+    <TextView
+        android:id="@+id/textViewAccountNumberReverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:rotation="180"/>
+    <!-- Account Holder Full Name -->
+    <!-- Account Holder Full Name -->
+    <!-- Account Holder Full Name -->
+    <TextView
+        android:id="@+id/textViewAccountHolderFullNameReverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:rotation="180"/>
+    <!-- scan to pay -->
+    <!-- scan to pay -->
+    <!-- scan to pay -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_textview_scan_me"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:rotation="180"/>
+
+
+    <ImageButton
+        android:id="@+id/btnShowOfflineQrCode"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/offlineqrcolor"
+        android:visibility="visible"/>
+
+</LinearLayout>
+

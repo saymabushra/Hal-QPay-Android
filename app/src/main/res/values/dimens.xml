@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">192dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="size_font_header">20sp</dimen>
+
+    <!-- EDIT TEXT -->
+    <dimen name="font_size_edit_text">16sp</dimen>
+    <dimen name="height_edit_text">40dp</dimen>
+    <dimen name="margin_left_edit_text">20dp</dimen>
+    <dimen name="margin_right_edit_text">20dp</dimen>
+
+    <!-- TEXT VIEW  TEXT VIEW  TEXT VIEW  TEXT VIEW -->
+    <dimen name="font_size_text_view">16sp</dimen>
+
+    <!-- SPINNER  SPINNER  SPINNER  SPINNER -->
+    <dimen name="spinner_label">18sp</dimen>
+
+    <!-- BUTTON -->
+    <dimen name="font_size_button_label">16sp</dimen>
+    <dimen name="btn_height">35dp</dimen>
+
+    <!-- CHECK BOX -->
+    <dimen name="font_size_check_box">16sp</dimen>
+    <dimen name="margin_left_check_box">5dp</dimen>
+    <dimen name="margin_right_check_box">50dp</dimen>
+
+    <!-- SPINNER -->
+    <dimen name="margin_left_spinner">50dp</dimen>
+    <dimen name="margin_right_spinner">50dp</dimen>
+    <dimen name="height_spinner">50dp</dimen>
+
+    <!-- RADIO BUTTON -->
+    <dimen name="font_size_radio_button">24sp</dimen>
+
+    <!-- IMAGE BUTTON -->
+    <dimen name="margin_bottom_image_button">10dp</dimen>
+    <!-- MARGIN -->
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

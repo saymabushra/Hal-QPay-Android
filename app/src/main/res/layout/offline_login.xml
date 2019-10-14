@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <!-- LinearLayout Upper Portion -->
+    <!-- LinearLayout Upper Portion -->
+    <!-- LinearLayout Upper Portion -->
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/side_nav_bar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <!-- TextView Scan to Pay -->
+        <!-- TextView Scan to Pay -->
+        <!-- TextView Scan to Pay -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan to Pay"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- CardView -->
+        <!-- CardView -->
+        <!-- CardView -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp">
+
+            <!-- ImageView Profile Pic -->
+            <!-- ImageView Profile Pic -->
+            <!-- ImageView Profile Pic -->
+            <ImageView
+                android:id="@+id/imgViewProfilePicOfflineLogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_profile" />
+        </android.support.v7.widget.CardView>
+
+        <!-- TextView Account Name -->
+        <!-- TextView Account Name -->
+        <!-- TextView Account Name -->
+        <TextView
+            android:id="@+id/txtviewAccountNameOfflineLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- LinearLayout Lower Portion -->
+    <!-- LinearLayout Lower Portion -->
+    <!-- LinearLayout Lower Portion -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- ImageView QR Code -->
+        <!-- ImageView QR Code -->
+        <!-- ImageView QR Code -->
+        <ImageView
+            android:id="@+id/imageViewPreviewQrCodeOfflineLogin"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:contentDescription="@string/content_description_imgview_preview_qr_for_wallet"
+            android:src="@drawable/qr_code" />
+
+        <!-- TextView Account Holder Full Name -->
+        <!-- TextView Account Holder Full Name -->
+        <!-- TextView Account Holder Full Name -->
+        <TextView
+            android:id="@+id/textViewAccountDetailesOfflineLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- TextView Account Number -->
+        <!-- TextView Account Number -->
+        <!-- TextView Account Number -->
+        <TextView
+            android:id="@+id/textViewAccountNumberOfflineLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

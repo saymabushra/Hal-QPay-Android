@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Personal Info -->
+            <!-- Personal Info -->
+            <!-- Personal Info -->
+            <Button
+                android:id="@+id/btnKycPersonalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_personal_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Parents/Spouse Info -->
+            <!-- Parents/Spouse Info -->
+            <!-- Parents/Spouse Info -->
+            <Button
+                android:id="@+id/btnKycParentAndSpouseInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_parents_and_spouse_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Address -->
+            <!-- Address -->
+            <!-- Address -->
+            <Button
+                android:id="@+id/btnKycAddressInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_address"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Contact -->
+            <!-- Contact -->
+            <!-- Contact -->
+            <Button
+                android:id="@+id/btnKycContactInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_contact"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Identification Info -->
+            <!-- Identification Info -->
+            <!-- Identification Info -->
+            <Button
+                android:id="@+id/btnKycIdentificationInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_identification_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Bank Info -->
+            <!-- Bank Info -->
+            <!-- Bank Info -->
+            <Button
+                android:id="@+id/btnKycBankInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_bank_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Nominee Info -->
+            <!-- Nominee Info -->
+            <!-- Nominee Info -->
+            <Button
+                android:id="@+id/btnKycNomineeInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_nominee_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- Introducer Info -->
+            <!-- Introducer Info -->
+            <!-- Introducer Info -->
+            <Button
+                android:id="@+id/btnKycIntroducerInfo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_introducer_info"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp" />
+            <!-- UpdKYC_Old KYC -->
+            <!-- UpdKYC_Old KYC -->
+            <!-- UpdKYC_Old KYC -->
+            <Button
+                android:id="@+id/btnKycUpdateKyc"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_border"
+                android:text="@string/label_button_update_kyc"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_label"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

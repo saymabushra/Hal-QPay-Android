@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- Select Identification Doc Type -->
+    <!-- Select Identification Doc Type -->
+    <!-- Select Identification Doc Type -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/label_textview_select_identification_doc_type"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- Identification Doc Type -->
+    <!-- Identification Doc Type -->
+    <!-- Identification Doc Type -->
+    <Spinner
+        android:id="@+id/spinnerKycIdentificationInfoIdentificationDocType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_spinner"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/spinner_border"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <!-- Identification Number -->
+    <!-- Identification Number -->
+    <!-- Identification Number -->
+    <EditText
+        android:id="@+id/editTextKycIdentificationInfoIdentification"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:hint="@string/hint_edit_text_enter_identification_number"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/edit_text_font"
+        android:textColorHint="@color/edit_text_hint"
+        android:textSize="@dimen/font_size_edit_text" />
+    <!-- Remarks -->
+    <!-- Remarks -->
+    <!-- Remarks -->
+    <EditText
+        android:id="@+id/editTextKycIdentificationInfoRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:hint="@string/hint_edit_text_enter_remark"
+        android:inputType="text|textMultiLine"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/edit_text_font"
+        android:textColorHint="@color/edit_text_hint"
+        android:textSize="@dimen/font_size_edit_text" />
+    <!-- Save Identification Info -->
+    <!-- Save Identification Info -->
+    <!-- Save Identification Info -->
+    <Button
+        android:id="@+id/btnKycIdentificationInfoSaveIdentificationInfo"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/btn_border"
+        android:text="@string/label_button_identification_info"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_label"
+        android:textSize="16sp" />
+    <!-- Server Response -->
+    <TextView
+        android:id="@+id/txtViewKycIdentificationInfoShowServerResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text=""
+        android:textColor="@color/text_view_font_error"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

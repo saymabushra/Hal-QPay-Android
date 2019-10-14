@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.haltechbd.app.android.qpay">
+
+    <uses-permission android:name="READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon_v2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- ChangePin -->
+        <!-- ChangePin -->
+        <!-- ChangePin -->
+        <activity
+            android:name=".ChangePin"
+            android:configChanges="orientation"
+            android:label="Change PIN"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- FavoriteTransaction -->
+        <!-- FavoriteTransaction -->
+        <!-- FavoriteTransaction -->
+        <activity
+            android:name=".FavoriteTransaction"
+            android:configChanges="orientation"
+            android:label="Favorite Transaction"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- FM_M2M -->
+        <!-- FM_M2M -->
+        <!-- FM_M2M -->
+        <!-- FM_M2M_AddToFav -->
+        <!-- FM_M2M_AddToFav -->
+        <!-- FM_M2M_AddToFav -->
+        <!-- FM_M2M_FromFav -->
+        <!-- FM_M2M_FromFav -->
+        <!-- FM_M2M_FromFav -->
+        <!-- FM_M2M_Quick -->
+        <!-- FM_M2M_Quick -->
+        <!-- FM_M2M_Quick -->
+        <!-- ForgetPin -->
+        <!-- ForgetPin -->
+        <!-- ForgetPin -->
+        <activity
+            android:name=".ForgetPin"
+            android:configChanges="orientation"
+            android:label="Forget PIN"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- FT_C2C -->
+        <!-- FT_C2C -->
+        <!-- FT_C2C -->
+        <!-- FT_C2C_AddToFav -->
+        <!-- FT_C2C_AddToFav -->
+        <!-- FT_C2C_AddToFav -->
+        <!-- FT_C2C_FromFav -->
+        <!-- FT_C2C_FromFav -->
+        <!-- FT_C2C_FromFav -->
+        <!-- FT_C2C_Quick -->
+        <!-- FT_C2C_Quick -->
+        <!-- FT_C2C_Quick -->
+        <!-- GenerateOtp -->
+        <!-- GenerateOtp -->
+        <!-- GenerateOtp -->
+        <activity
+            android:name=".GenerateOtp"
+            android:configChanges="orientation"
+            android:label="OTP"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- KycIdentificationInfo -->
+        <!-- KycIdentificationInfo -->
+        <!-- KycIdentificationInfo -->
+
+
+        <!-- KYC -->
+        <!-- KYC -->
+        <!-- KYC -->
+        <!-- KYC NEW -->
+        <!-- KYC NEW -->
+        <!-- KYC NEW -->
+        <activity
+            android:name=".Kyc"
+            android:configChanges="orientation"
+            android:label="KYC"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Address Info -->
+        <!-- KYC Address Info -->
+        <!-- KYC Address Info -->
+        <activity
+            android:name=".KycUpdateAddressInfo"
+            android:configChanges="orientation"
+            android:label="Address Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Address Info -->
+        <!-- KYC Update Address Info -->
+        <!-- KYC Update Address Info -->
+        <activity
+            android:name=".KycPreviewAddressInfo"
+            android:configChanges="orientation"
+            android:label="Address Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Save Bank Info -->
+        <!-- KYC Save Bank Info -->
+        <!-- KYC Save Bank Info -->
+        <activity
+            android:name=".KycUpdateBankInfo"
+            android:configChanges="orientation"
+            android:label="Bank Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Bank Info -->
+        <!-- KYC Update Bank Info -->
+        <!-- KYC Update Bank Info -->
+        <activity
+            android:name=".KycPreviewBankInfo"
+            android:configChanges="orientation"
+            android:label="Bank Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Conatct Info -->
+        <!-- KYC Conatct Info -->
+        <!-- KYC Conatct Info -->
+        <activity
+            android:name=".KycUpdateContactInfo"
+            android:configChanges="orientation"
+            android:label="Contact Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Conatct Info -->
+        <!-- KYC Update Conatct Info -->
+        <!-- KYC Update Conatct Info -->
+        <activity
+            android:name=".KycPreviewContactInfo"
+            android:configChanges="orientation"
+            android:label="Contact Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- Kyc Identification Info -->
+        <!-- Kyc Identification Info -->
+        <!-- Kyc Identification Info -->
+        <activity
+            android:name=".KycUpdateIdentificationInfo"
+            android:configChanges="orientation"
+            android:label="Update Identification Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- Kyc Update Identification Info -->
+        <!-- Kyc Update Identification Info -->
+        <!-- Kyc Update Identification Info -->
+        <activity
+            android:name=".KycPreviewIdentificationInfo"
+            android:configChanges="orientation"
+            android:label="View Identification Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Introducer Info -->
+        <!-- KYC Introducer Info -->
+        <!-- KYC Introducer Info -->
+        <activity
+            android:name=".KycUpdateIntroducerInfo"
+            android:configChanges="orientation"
+            android:label="Introducer Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Introducer Info -->
+        <!-- KYC Update Introducer Info -->
+        <!-- KYC Update Introducer Info -->
+        <activity
+            android:name=".KycPreviewIntroducerInfo"
+            android:configChanges="orientation"
+            android:label="Introducer Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".KycListOfIdentificationInfo"
+            android:configChanges="orientation"
+            android:label="Introducer Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Nominee Info -->
+        <!-- KYC Nominee Info -->
+        <!-- KYC Nominee Info -->
+        <activity
+            android:name=".KycUpdateNomineeInfo"
+            android:configChanges="orientation"
+            android:label="Nominee Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Nominee Info -->
+        <!-- KYC Update Nominee Info -->
+        <!-- KYC Update Nominee Info -->
+        <activity
+            android:name=".KycPreviewNomineeInfo"
+            android:configChanges="orientation"
+            android:label="Nominee Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Parents/Spouse Info -->
+        <!-- KYC Parents/Spouse Info -->
+        <!-- KYC Parents/Spouse Info -->
+        <activity
+            android:name=".KycUpdateParentsAndSpouseInfo"
+            android:configChanges="orientation"
+            android:label="Parents/Spouse Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Parents/Spouse Info -->
+        <!-- KYC Update Parents/Spouse Info -->
+        <!-- KYC Update Parents/Spouse Info -->
+        <activity
+            android:name=".KycPreviewParentsAndSpouseInfo"
+            android:configChanges="orientation"
+            android:label="Parents/Spouse Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Personal Info -->
+        <!-- KYC Personal Info -->
+        <!-- KYC Personal Info -->
+        <activity
+            android:name=".KycUpdatePersonalInfo"
+            android:configChanges="orientation"
+            android:label="Personal Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- KYC Update Personal Info -->
+        <!-- KYC Update Personal Info -->
+        <!-- KYC Update Personal Info -->
+        <activity
+            android:name=".KycPreviewPersonalInfo"
+            android:configChanges="orientation"
+            android:label="Personal Info"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Login -->
+        <!-- Login -->
+        <!-- Login -->
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- MainActivity -->
+        <!-- MainActivity -->
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:replace="screenOrientation" />
+        <!-- MP_Through_C_C2M -->
+        <!-- MP_Through_C_C2M -->
+        <!-- MP_Through_C_C2M -->
+        <activity
+            android:name=".MP_Through_C_C2M"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- MP_Through_C_C2M_AddToFav -->
+        <!-- MP_Through_C_C2M_AddToFav -->
+        <!-- MP_Through_C_C2M_AddToFav -->
+        <activity
+            android:name=".MP_Through_C_C2M_AddToFav"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- MP_Through_C_C2M_FromFav -->
+        <!-- MP_Through_C_C2M_FromFav -->
+        <!-- MP_Through_C_C2M_FromFav -->
+        <activity
+            android:name=".MP_Through_C_C2M_FromFav"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- MP_Through_C_C2M_Quick -->
+        <!-- MP_Through_C_C2M_Quick -->
+        <!-- MP_Through_C_C2M_Quick -->
+        <activity
+            android:name=".MP_Through_C_C2M_Quick"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- MP_Through_M_C2M -->
+        <!-- MP_Through_M_C2M -->
+        <!-- MP_Through_M_C2M -->
+        <activity
+            android:name=".MP_Through_M_C2M"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- MP_Through_M_C2M_Quick -->
+        <!-- MP_Through_M_C2M_Quick -->
+        <!-- MP_Through_M_C2M_Quick -->
+        <activity
+            android:name=".MP_Through_M_C2M_Quick"
+            android:configChanges="orientation"
+            android:label="Merchant Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Customer_Cash_Withdrowal"
+            android:configChanges="orientation"
+            android:label="Customer Cash Advance"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Customer_Cash_withdrowal_Through_Agent"
+            android:configChanges="orientation"
+            android:label="Customer Cash Advance"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Fund_Management"
+            android:configChanges="orientation"
+            android:label="Fund Management"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Cash_IN"
+            android:configChanges="orientation"
+            android:label="Cashin"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- PinSubmissiont -->
+        <!-- PinSubmissiont -->
+        <!-- PinSubmissiont -->
+        <activity
+            android:name=".PinSubmission"
+            android:configChanges="orientation"
+            android:label="Set PIN"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Set_Transaction_PIN"
+            android:configChanges="orientation"
+            android:label="Set Transaction PIN"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- QrScan -->
+        <!-- QrScan -->
+        <!-- QrScan -->
+        <activity
+            android:name=".QrScan"
+            android:configChanges="orientation"
+            android:label="Scan QR"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- SignUp -->
+        <!-- SignUp -->
+        <!-- SignUp -->
+        <activity
+            android:name=".SignUp"
+            android:configChanges="orientation"
+            android:label="Sign Up"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- Splash -->
+        <!-- Splash -->
+        <!-- Splash -->
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation"
+            android:label="Hal Merchant"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Tag Device -->
+        <!-- Tag Device -->
+        <!-- Tag Device -->
+        <activity
+            android:name=".TagDevice"
+            android:configChanges="orientation"
+            android:label="Tag Device"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TagDevice_OTP"
+            android:configChanges="orientation"
+            android:label="Tag Device"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- TokenSubmission -->
+        <!-- TokenSubmission -->
+        <!-- TokenSubmission -->
+        <activity
+            android:name=".TokenSubmission"
+            android:configChanges="orientation"
+            android:label="Token Submission"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- TransactionHistory -->
+        <!-- TransactionHistory -->
+        <!-- TransactionHistory -->
+        <activity
+            android:name=".TransactionHistory"
+            android:configChanges="orientation"
+            android:label="Transaction History"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- UserIdSubmission -->
+        <!-- UserIdSubmission -->
+        <!-- UserIdSubmission -->
+        <activity
+            android:name=".UserIdSubmission"
+            android:configChanges="orientation"
+            android:label="Set User ID"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- link Account -->
+        <activity
+            android:name=".Link_Account"
+            android:configChanges="orientation"
+            android:label="Link Account"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- <activity android:name=".utils.CustomAdapter" /> -->
+        <activity
+            android:name=".Update_Link_Account"
+            android:configChanges="orientation"
+            android:label="Edit Link Account"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Add_Link_Account"
+            android:configChanges="orientation"
+            android:label="Add Link Account"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ComingSoon"
+            android:configChanges="orientation"
+            android:label="QPay"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Utility_Bill"
+            android:configChanges="orientation"
+            android:label="Bill Payment"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Recharge_Menu"
+            android:configChanges="orientation"
+            android:label="Ticket Purchase"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Topup"
+            android:configChanges="orientation"
+            android:label="Mobile Topup"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".DPDC"
+            android:configChanges="orientation"
+            android:label="DPDC"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".DESCO"
+            android:configChanges="orientation"
+            android:label="DESCO"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".WASA"
+            android:configChanges="orientation"
+            android:label="WASA"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".WEST_ZONE"
+            android:configChanges="orientation"
+            android:label="West Zone"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Select_Photo"
+            android:configChanges="orientation"
+            android:label="Select Image"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Offline_Login"
+            android:configChanges="orientation"
+            android:label="OffLine Mood"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".LostFoundActivity"
+            android:configChanges="orientation"
+            android:label="Lost and Found"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".BuyExchangeTicketActivity"
+            android:configChanges="orientation"
+            android:label="Buy or Exchange"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Notification_Show"
+            android:configChanges="orientation"
+            android:label="Notification"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Link_Account_New_V2"
+            android:configChanges="orientation"
+            android:label="Link Account"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Printer"
+            android:configChanges="orientation"
+            android:label="Print"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Terms_And_Condition"
+            android:configChanges="orientation"
+            android:label="Terms and Condition"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".About_QucikPay"
+            android:configChanges="orientation"
+            android:label="About Quick Pay"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Merchant_Location"
+            android:configChanges="orientation"
+            android:label="Set Merchant Device Location"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".QrCodeScanActivity"
+            android:label="QR Code scan" />
+
+        <meta-data
+            android:name="com.google.gms.vision.DEPENDENT"
+            android:value="barcode" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>
